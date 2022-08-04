@@ -701,5 +701,47 @@ img {
 .tours {
     margin-bottom: 139px;
 }
+.tour {
+    margin-bottom: 77px;
+}
+.tours__tour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 108px;
+    align-items: center;
+}
+.tour-info {
+    padding-left: 47px;
+}
+.tour-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 85px;
+}
+.tour-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+.tour-more {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../img/svg/arrow-right-icon.svg) no-repeat right center;
+}
+.tour-more:hover,  .tour-more:focus {
+    opacity: .55;
+}
 
 /* Tours styles end */
+
+/* Top styles start */
+
+
+
+/* Top styles end */
